@@ -55,6 +55,8 @@ except NameError:
 
 # Initialize both ADAR1000s, set gains to max, and all phases to 0
 my_phaser.configure(device_mode="rx")
+my_phaser.load_gain_cal()
+my_phaser.load_phase_cal()
 for i in range(0, 8):
     my_phaser.set_chan_gain(i, 127)
     my_phaser.set_chan_phase(i, 0)
