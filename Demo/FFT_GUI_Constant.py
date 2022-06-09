@@ -4,8 +4,6 @@
 import sys
 sys.path.insert(0, '../Phaser_Board')
 sys.path.insert(0, '..')
-sys.path.insert(0, '/home/marchall/documents/chill/.packages/pyadi-iio')
-sys.path.insert(0, '/home/marchall/documents/chill/.packages/libiio')
 
 from pyqtgraph.Qt import QtGui, QtCore
 from PyQt5.QtCore import Qt
